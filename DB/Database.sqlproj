@@ -112,6 +112,7 @@
     <Build Include="Procedures\Auth\register.sql" />
     <Build Include="Functions\F_hasher.sql" />
     <Build Include="Procedures\Auth\InsertRefreshToken.sql" />
+    <Build Include="Procedures\Customer\ReadLastCustomer.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
