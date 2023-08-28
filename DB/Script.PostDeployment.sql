@@ -68,6 +68,28 @@ exec SP_Cmd_Create
 @AddByUser=1,
 @IdCustomer=1;
 
+--On creez une Odp pour le client 1
+exec SP_Odp_Create
+@AddByUser=1,
+@IdCustomer=1;
+
+--On creez une facture pour le client 1
+exec SP_Fct_Create
+@AddByUser=1,
+@IdCustomer=1;
+
+--On creez une rpr pour le client 1
+exec SP_Rpr_Create
+@AddByUser=1,
+@IdCustomer=1;
+
+--On creez une dlc pour le client 1
+exec SP_Dlc_Create
+@AddByUser=1,
+@IdCustomer=1;
+
+
+
 exec SP_Log_Create
 @Priority =1,
 @AddByUser=1,

@@ -1,8 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Cmd_Delete]
-	@IdUser int
+	@IdCmd int
 AS
 BEGIN
 --declare @DtOut datetime2 = GETDATE();
-Delete from [User] where Id = @IdUser;
+Delete from [Cmd] where Id = @IdCmd;
 return 0;
 END

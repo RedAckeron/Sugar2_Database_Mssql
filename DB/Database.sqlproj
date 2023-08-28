@@ -64,6 +64,10 @@
     <Folder Include="Procedures\Cmd" />
     <Folder Include="Procedures\Address" />
     <Folder Include="Procedures\Auth" />
+    <Folder Include="Procedures\Odp" />
+    <Folder Include="Procedures\Fct" />
+    <Folder Include="Procedures\Dlc" />
+    <Folder Include="Procedures\Rpr" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Customer.sql" />
@@ -94,7 +98,6 @@
     <Build Include="Procedures\Cmd\Update.sql" />
     <Build Include="Procedures\Cmd\Create.sql" />
     <Build Include="Procedures\Cmd\Delete.sql" />
-    <Build Include="Procedures\Cmd\Login.sql" />
     <Build Include="Procedures\Cmd\Read.sql" />
     <Build Include="Procedures\Customer\FindCustomer.sql" />
     <Build Include="Procedures\Cmd\ReadAllCmdLight.sql" />
@@ -113,9 +116,34 @@
     <Build Include="Functions\F_hasher.sql" />
     <Build Include="Procedures\Auth\InsertRefreshToken.sql" />
     <Build Include="Procedures\Customer\ReadLastCustomer.sql" />
+    <Build Include="Procedures\Odp\AddItemToOdp.sql" />
+    <Build Include="Procedures\Odp\Create.sql" />
+    <Build Include="Procedures\Odp\Delete.sql" />
+    <Build Include="Procedures\Odp\Read.sql" />
+    <Build Include="Procedures\Odp\ReadAllOdpLight.sql" />
+    <Build Include="Procedures\Odp\Update.sql" />
+    <Build Include="Procedures\Fct\Create.sql" />
+    <Build Include="Procedures\Fct\Delete.sql" />
+    <Build Include="Procedures\Fct\Read.sql" />
+    <Build Include="Tables\Fct.sql" />
+    <Build Include="Procedures\Dlc\Create.sql" />
+    <Build Include="Procedures\Dlc\Delete.sql" />
+    <Build Include="Procedures\Dlc\Read.sql" />
+    <Build Include="Tables\Dlc.sql" />
+    <Build Include="Tables\Rpr.sql" />
+    <Build Include="Procedures\Rpr\Create.sql" />
+    <Build Include="Procedures\Rpr\Delete.sql" />
+    <Build Include="Procedures\Rpr\Read.sql" />
+    <Build Include="Procedures\Customer\CntOdp.sql" />
+    <Build Include="Procedures\Customer\CntCmd.sql" />
+    <Build Include="Procedures\Customer\CntFct.sql" />
+    <Build Include="Procedures\Customer\CntRpr.sql" />
+    <Build Include="Procedures\Customer\CntDlc.sql" />
+    <Build Include="Procedures\Customer\CntAdr.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
+    <None Include="Database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
