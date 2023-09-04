@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[SP_Cmd_ReadAllOdpLight]
+﻿CREATE PROCEDURE [dbo].[SP_Odp_ReadAllOdpLight]
     @IdCust int 
 AS
 BEGIN
