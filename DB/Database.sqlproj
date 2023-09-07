@@ -140,6 +140,7 @@
     <Build Include="Procedures\Customer\CntRpr.sql" />
     <Build Include="Procedures\Customer\CntDlc.sql" />
     <Build Include="Procedures\Customer\CntAdr.sql" />
+    <Build Include="Procedures\Dlc\ReadAllDlcLight.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
