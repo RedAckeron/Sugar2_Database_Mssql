@@ -68,6 +68,7 @@
     <Folder Include="Procedures\Fct" />
     <Folder Include="Procedures\Dlc" />
     <Folder Include="Procedures\Rpr" />
+    <Folder Include="View" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Customer.sql" />
@@ -103,7 +104,7 @@
     <Build Include="Procedures\Cmd\ReadAllCmdLight.sql" />
     <Build Include="Tables\Address.sql" />
     <Build Include="Procedures\Address\CreateCustomerAddress.sql" />
-    <Build Include="Procedures\Address\ReadCustomerAddress.sql" />
+    <Build Include="Procedures\Address\ReadAddress.sql" />
     <Build Include="Procedures\Cmd\AddItemToCmd.sql" />
     <Build Include="Procedures\Address\Update.sql" />
     <Build Include="Tables\CustomerAddress.sql" />
@@ -141,6 +142,11 @@
     <Build Include="Procedures\Customer\CntDlc.sql" />
     <Build Include="Procedures\Customer\CntAdr.sql" />
     <Build Include="Procedures\Dlc\ReadAllDlcLight.sql" />
+    <Build Include="Procedures\Rpr\ReadAllRprLight.sql" />
+    <Build Include="Procedures\Fct\ReadAllFctLight.sql" />
+    <Build Include="View\CustomerAddress.sql" />
+    <Build Include="Procedures\Address\ReadAlladrLight.sql" />
+    <Build Include="Procedures\Address\CountCustomerAddress.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB.publish.xml" />
